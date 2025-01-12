@@ -1,0 +1,96 @@
+header {
+    background-color: #f7f7f7;
+    height: 600px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoArrow {
+    border-radius: 50%;
+    padding: 10px 12px;
+    background: rgb(171, 239, 95);
+}
+
+.logoArrow i {
+    transform: rotate(-45deg);
+    font-size: 15px;
+}
+
+.logoText {
+    color: rgb(33, 33, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-left: 6px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+
+nav li a {
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchIcon {
+    border-radius: 50%;
+    padding: 10px 12px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.cartIcon {
+    border-radius: 50%;
+    padding: 10px 12px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.nav-right button {
+    padding: 12px 20px;
+    background-color: #ABEF5F;
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.nav-right button > .logoArrow{
+    background-color: #1C1C1C;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 12px;
+}
+
+.nav-right button > .logoArrow i {
+    transform: translateY(-2px);
+    font-size: 15px;
+}
