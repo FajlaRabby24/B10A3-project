@@ -1,0 +1,77 @@
+.article {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+}
+
+.article-inner>.btn-container {
+    text-align: center;
+}
+
+.article-inner>.btn-container button {
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 24px;
+    padding: 8px 16px;
+    border: none;
+    background: #ABEF5F33;
+    cursor: pointer;
+}
+
+.article-inner>.title {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.article-inner>.des {
+    max-width: 677px;
+    text-align: center;
+    margin: 0 auto 32px auto;
+}
+
+.article-card-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.article-card {
+    background-color: #fff;
+    padding: 24px 24px;
+    border-radius: 16px;
+}
+
+.article-card img {
+    width: 100%;
+}
+
+
+.article-card > .des {
+    margin-top: 18px;
+}
+
+.article-card .des {
+    color: rgb(115, 115, 115);
+} 
+
+.article-card > h3 {
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 8px;
+    margin-bottom: -10px;
+}
+
+.article-card button{
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 24px;
+    padding: 8px 16px;
+    border: none;
+    background: #ABEF5F;
+    cursor: pointer;
+    margin-top: 15px;
+}
