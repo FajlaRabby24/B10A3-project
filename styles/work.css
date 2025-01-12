@@ -1,0 +1,59 @@
+.work{
+    background-color: #f4f4f4;
+    padding-bottom: 100px;
+}
+
+.work-inner > .btn-container{
+    text-align: center;
+}
+
+.work-inner>.btn-container button {
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 24px;
+    padding: 8px 16px;
+    border: none;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.work-inner > .title{
+    margin: 24px 0 24px 0;
+    text-align: center;
+}
+
+.work-inner > .des{
+    text-align: center;
+    max-width: 678px;
+    margin: 0 auto 32px auto;
+}
+
+.work-card-container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.work-card{
+   padding: 24px;
+   border-radius: 16px;
+}
+
+.work-card:nth-child(1){
+    background-color: #E7C1D3;
+}
+
+.work-card:nth-child(2){
+    background-color: #EFDA6E;
+}
+
+.work-card:nth-child(3){
+    background-color: #A4DAC3;
+}
+
+.work-card:nth-child(4){
+    background-color: #77AAEA;
+}
