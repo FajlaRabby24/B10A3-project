@@ -1,6 +1,7 @@
 header {
     padding-bottom: 50px;
-    margin-bottom: 130px ;
+    /* margin-bottom: 130px ; */
+    background-color: #f7f7f7;
 }
 
 nav {
