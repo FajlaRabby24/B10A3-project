@@ -1,0 +1,116 @@
+.nextProject {
+    background-image: url('../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+
+.nextProject-inner>.btn-container {
+    text-align: center;
+}
+
+.nextProject-inner>.btn-container button {
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 24px;
+    padding: 8px 16px;
+    border: none;
+    background: #ABEF5F33;
+    cursor: pointer;
+}
+
+.nextProject-inner>.title {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.nextProject-inner>.des {
+    max-width: 671px;
+    margin: 0 auto 32px auto;
+    text-align: center;
+}
+
+form {
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.input-group input {
+    width: 314px;
+    border-radius: 32px;
+    padding: 18px 24px;
+    border: none;
+}
+
+form input:focus {
+    outline: 3px solid #ABEF5F;
+}
+
+.input-group input::placeholder {
+    color: rgb(160, 160, 160);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+form textarea {
+    padding: 24px;
+    border: none;
+    border-radius: 16px;
+    color: rgb(160, 160, 160);
+    font-size: 16px;
+    font-weight: 500;
+    resize: none;
+    height: 200px;
+    margin-bottom: 30px;
+
+}
+
+form textarea::placeholder {
+    color: rgb(160, 160, 160);
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+textarea:focus{
+    outline: 3px solid #ABEF5F;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #ABEF5F;
+    border-radius: 24px;
+    border: none;
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button>.logoArrow {
+    background-color: #1C1C1C;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 12px;
+}
+
+form button>.logoArrow i {
+    transform: translateY(-2px);
+    font-size: 15px;
+}
+
+form button:focus{
+    outline: 2px solid #000;
+}
+
